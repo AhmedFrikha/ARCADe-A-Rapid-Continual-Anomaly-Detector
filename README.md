@@ -3,7 +3,7 @@
 This code repository contains the implementation of the ARCADe algorithm from the paper 
 "ARCADe: A Rapid Continual Anomaly Detector" accepted at ICPR 2020 (https://arxiv.org/abs/2008.04042).
 
-<b>Bibtex:
+Bibtex:
 ```
 @article{frikha2020arcade,
   title={ARCADe: A Rapid Continual Anomaly Detector},
@@ -12,7 +12,6 @@ This code repository contains the implementation of the ARCADe algorithm from th
   year={2020}
 }
 ```
-<b>
 
 The code provided in this repository works with three different datasets, and can easily be extended to further datasets. 
 To download the raw data for Omniglot and miniImageNet, follow instructions in https://github.com/spiglerg/pyMeta. 
