@@ -1,0 +1,21 @@
+{
+  "filters": "32 32 32 32",
+  "kernel_sizes": "3 3 3 3",
+  "dense_layers": "",
+  "meta_lr": 0.001,
+  "lr": 0.01,
+  "meta_epochs": 15000,
+  "K": 10,
+  "cir_inner_loop": 1.0,
+  "n_queries": 30,
+  "num_updates": 3,
+  "stop_grad": "True",
+  "dataset":"MIN",
+  "min_length": 5,
+  "max_length": 5, 
+  "update_mode": "loss_from_random_previous_task",
+  "bn": "True",
+  "arcade_h":"True",
+  "seed":2,
+  "summary_dir": "MIN_ARCADe_H_BN_K10_seq_5"
+}

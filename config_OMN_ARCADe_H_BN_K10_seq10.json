@@ -1,0 +1,21 @@
+{
+  "filters": "64 64 64 64",
+  "kernel_sizes": "3 3 3 3",
+  "dense_layers": "",
+  "meta_lr": 0.001,
+  "lr": 0.01,
+  "meta_epochs": 10000,
+  "K": 10,
+  "cir_inner_loop": 1.0,
+  "n_queries": 20,
+  "num_updates": 3,
+  "stop_grad": "True",
+  "dataset":"omniglot",
+  "min_length": 10,
+  "max_length": 10, 
+  "update_mode": "loss_from_random_previous_task",
+  "bn": "True",
+  "arcade_h":"True",
+  "seed":2,
+  "summary_dir": "OMN_ARCADe_H_BN_K10_seq_10"
+}
