@@ -14,6 +14,11 @@ Bibtex:
 ```
 
 The code provided in this repository works with three different datasets, and can easily be extended to further datasets. 
+To run the code on a dataset, the corresponding configuration file has to be used. For example, for Omniglot run:
+```
+python arcade_main.py -config_file=config_OMN_ARCADe_H_BN_K10_seq10.json
+```
+
 To download the raw data for Omniglot and miniImageNet, follow instructions in https://github.com/spiglerg/pyMeta. 
 We downloaded CIFAR-FS from https://github.com/kjunelee/MetaOptNet. 
 
